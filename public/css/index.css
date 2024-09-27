@@ -2,21 +2,21 @@
     font-family: 'Helvetica';
     font-style: normal;
     font-weight: normal;
-    src: local('Helvetica'), url('../../fonts/Helvetica.ttf') format('truetype');
+    src: local('Helvetica'), url('../fonts/Helvetica.ttf') format('truetype');
 }
 
 @font-face {
 font-family: 'Helvetica Bold';
 font-style: normal;
 font-weight: bold;
-src: local('Helvetica Bold'), url('../../fonts/Helvetica-Bold.ttf') format('truetype');
+src: local('Helvetica Bold'), url('../fonts/Helvetica-Bold.ttf') format('truetype');
 }
 
 @font-face {
     font-family: 'Helvetica Light';
     font-style: normal;
     font-weight: normal;
-    src: local('Helvetica Light'), url('../../fonts/Helvetica-Light.ttf'), format('truetype');
+    src: local('Helvetica Light'), url('../fonts/Helvetica-Light.ttf'), format('truetype');
 }
 
 .btn-s {
