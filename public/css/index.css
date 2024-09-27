@@ -1,0 +1,273 @@
+@font-face {
+    font-family: 'Helvetica';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Helvetica'), url('../../fonts/Helvetica.ttf') format('truetype');
+}
+
+@font-face {
+font-family: 'Helvetica Bold';
+font-style: normal;
+font-weight: bold;
+src: local('Helvetica Bold'), url('../../fonts/Helvetica-Bold.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Helvetica Light';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Helvetica Light'), url('../../fonts/Helvetica-Light.ttf'), format('truetype');
+}
+
+.btn-s {
+    background-color:#5CB85F;
+    font-family: Helvetica Bold;
+    font-size: 14px;
+}
+.nav {
+    --bs-nav-link-color: black;
+}
+.nav-link {
+    font-family: Helvetica;
+    font-size: 14px;
+}
+.header {
+    --bs-nav-link-padding-x: 8.5rem;
+    --bs-nav-link-padding-y: 2rem;
+}
+.col-picture {
+    --bs-gutter-x: 0;
+    --bs-gutter-y: 0;
+    height: auto; 
+    padding: 0; 
+    margin: 0; 
+    padding-top: 2rem;
+}
+.col-picture--service {
+    display: flex;
+    justify-content: space-around;
+}
+
+html, body {
+    overflow-x: hidden;
+}
+.container-profile {
+    background-color: #F1F3FF;
+}
+.container-description {
+    --bs-gutter-x: 10%;
+}
+.container-services {
+    padding-top: 100px;
+    padding-bottom: 50px;
+}
+.container-why-us {
+    padding-top: 100px;
+    padding-bottom: 50px; 
+}
+.container-whyus {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-around;
+}
+.container-testimonial {
+    padding-top: 100px;
+    padding-bottom: 50px; 
+}
+.container-carousel {
+    max-width: 832px;
+    background-color: #F1F3FF;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.container-testimonial__title {
+    align-items: center;
+}
+.container-banner {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.container-faq {
+    padding-top: 20px;
+    padding-bottom: 100px;
+}
+.container-footer {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content:space-between;
+    padding-top: 20px;
+    padding-bottom: 100px;
+}
+.footer-adress {
+    width: 268px;
+}
+.footer-nav {
+    width: 79px;
+}
+.footer-social {
+    width: 268px;
+}
+.footer-copyright {
+    width: 268px;
+}
+.testimonial {
+    width: 70%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content:space-between;
+}
+.col-picture--testimonial {
+    width: 20%;
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+}
+.picture-testimonial {
+    width: 70px;
+    height: 80px;
+}
+.col-testimonial {
+    width: 77%;
+    display: flex;
+    flex-direction: column;
+}
+.col-description {
+    padding-left: 8.5rem;
+}
+.col-why-us {
+    max-width: 268px;
+}
+.description-content {
+    max-width: 468px;
+}
+.list-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.banner {
+    background-color: #0D28A6;
+    color: white;
+}
+.accordion {
+    height: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-items: stretch;
+    gap: 16px;
+}
+.font__helvetica--small {
+    font-family: Helvetica;
+    font-size: 14px;
+}
+.font__helvetica--large {
+    font-family: Helvetica;
+    font-size: 36px;
+}
+.font__helvetica--small--bold {
+    font-family: Helvetica Bold;
+    font-size: 16px;
+}
+.font__helvetica--medium--bold {
+    font-family: Helvetica Bold;
+    font-size: 24px;
+}
+.font__helvetica--large--bold {
+    font-family: Helvetica Bold;
+    font-size: 36px;
+}
+.font__helvetica--small--light {
+    font-family: Helvetica Light;
+    font-size: 14px;
+}
+.font__helvetica--medium--light {
+    font-family: Helvetica Light;
+    font-size: 24px;
+}
+html {
+    scroll-behavior: smooth;
+}
+.offcanvas {
+    width: 250px;
+}
+
+.offcanvas-end {
+    right: -250px;
+    transition: right 0.3s ease-in-out;
+}
+
+.offcanvas.show {
+    right: 0;
+}
+.navbar-toggler {
+    display: none;
+}
+/* Mobile View */
+@media (max-width: 500px) {
+    .nav-pills {
+        display: none;
+    }
+    .navbar-toggler {
+        display: block;
+    }
+    .container-services {
+        padding-top: 25px;
+        padding-bottom: 25px;
+    }
+    .row-why-us {
+        display: flex;
+        flex-direction: column;
+        gap: 50px;
+    }
+    .container-why-us {
+        padding-top: 25px;
+        padding-bottom: 25px;
+    }
+    .testimonial {
+        width: 70%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content:space-between;
+    }
+    .col-picture--testimonial {
+        width: 100%;
+        display: flex;
+        justify-content:space-around;
+        padding-bottom: 20px;
+    }
+    .col-testimonial {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .container-banner {
+        padding-top: 25px;
+        padding-bottom: 25px;
+    }
+    .container-faq {
+        padding-top: 25px;
+        padding-bottom: 25px;
+    }
+    .container-footer {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content:space-between;
+        padding-top: 10px;
+        padding-bottom: 50px;
+        gap: 5px;
+    }
+    .nav-header {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content:space-between;
+        gap: 50%; 
+    }
+}
